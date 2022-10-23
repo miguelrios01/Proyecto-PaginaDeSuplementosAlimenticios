@@ -132,6 +132,9 @@ nav .bar span{
 
 }
 
+/* Soy una etiqueta que se marca como error pero soy
+ de prueba en lo que miguel logra encontar que hacer  */
+
 input[type="checkbox"]{
     -webkit-appearance: none; 
     display: none;
