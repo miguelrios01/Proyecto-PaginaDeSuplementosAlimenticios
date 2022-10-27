@@ -22,12 +22,10 @@
 }
 
 body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-
-
 
 /* E M P I E Z A   L A   B A R R A   D E   N A V E G A C I O N   R E S P O N S I V E  */
 nav{
@@ -265,55 +263,18 @@ input[type="checkbox"]{
 } 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* T E R M I N A   E L   C O N T E N I D O   A Q U I */ 
-/* &&&&&&& */
-/* &&&&&&& */
-/* &&&&&&& */
-
-
-
 /* ========== F O O T E R ============  */
 footer{
-    
     margin-top: auto;
     left: 0;
-    width: 100%;
-    height: 0%;
+    width: 100%;  
     background: var(--container-color-footer);
     color: var(--title-color);
 }
 
+
 .footer__container{
+    
     justify-content: center;
     align-items: center;
     padding: 30px;
