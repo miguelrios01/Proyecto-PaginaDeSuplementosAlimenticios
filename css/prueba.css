@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.icon{
+  text-align: center;
+  color: rgb(15, 15, 15);
+  font-size: 35px;
+  font-weight: 800;
+  font-family: 'Nokora', sans-serif;
+
+
+}
+
+.T6{
+  display: flex;
+  justify-content: center;
+}
+.BV{
+  background-image: linear-gradient(to right, rgba(13, 255, 114, 0), rgb(133, 250, 178));
+  overflow: auto;
+  padding: 50px;
+  width: 100%;
+  height:150px
+}
+
+
+/* CSS Para el formulario*/
+form{
+
+  width: 514.4px;
+  height: 650px;
+  margin-top: 25px;
+  
+  padding: 20px 30px;
+  box-sizing: border-box;
+  background-color: rgba(255, 251, 251, 0.068);
+  margin-bottom: 100px;
+  border-color:#B2F35D ;
+  box-shadow: 10px 10px 25px #B2F35D;
+ 
+}
+input, textarea{
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+ 
+  border-color: #B2F35D;
+}
+
+h2{
+  font-family:  Inter,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+textarea{
+  min-height: 100px;
+  max-height: 100px;
+  max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+#p1{
+  font-family:  Inter,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 1.5;
+ }
+ #promo{
+  font-family:  Inter,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: small;
+ }
+
+/*Css para el boton*/
+#boton{
+  width:100%;
+  height: 50px;
+  margin-top: 25px;
+  background: #000000;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+
+ 
+}
+#boton:hover{
+    cursor: pointer;
+    background-color: #32d155;
+}
+
