@@ -21,7 +21,11 @@
     color: var(--text-color);
 }
 
-
+body{
+    position: relative;
+    min-height: 100vh;
+    
+}
 
 
 
@@ -301,7 +305,7 @@ input[type="checkbox"]{
 /* ========== F O O T E R ============  */
 footer{
     
-    position:relative;
+    position:absolute;
     bottom: 0;
     left: 0;
     width: 100%;
