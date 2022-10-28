@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', Times, serif, Helvetica, sans-serif;
+    margin: 0%;
+    background: url("C:/Users/Davidfj/Documents/UNIVERSIDAD 2022/II SEMESTRE/DESARROLLO DE SOFTWARE 4/Proyecto-PaginaDeSuplementosAlimenticios-main/badlog.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+.cuadro{
+    width: 100%;
+    padding: 15px;
+}
+.cuestionario{
+    background: rgb(255, 255, 255);
+    margin-top: 50px;
+    padding: 3px;
+}
+/* titulo */
+h1{
+    text-align: center;
+    color: #39dfb5;
+    font-size: 50px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-cuadro{
+    margin-bottom: 15px;
+    border: 1px solid rgb(245, 239, 239);
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+/*perfil imagen*/
+.perfil-img{
+    width:150px;
+    height: 150px;
+}
+/**/
+.button{
+    border: none;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background:  #45edad;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: rgb(86, 238, 223);
+}
+p{
+    text-align: center;
+}
+/* boton registro */
+.link{
+    text-decoration: none;
+      color: #130404;
+    font-weight: 600;
+}
+.link:hover{
+     color: rgb(28, 218, 116);
+}
+@media(min-width:758px)
+{
+    .cuestionario{
+        margin: auto;
+        width: 500px;
+        margin-top: 50px;
+        border-radius: 3%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
