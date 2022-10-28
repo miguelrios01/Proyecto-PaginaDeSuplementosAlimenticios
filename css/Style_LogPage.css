@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', Times, serif, Helvetica, sans-serif;
     margin: 0%;
-    background: url("C:/Users/Davidfj/Documents/UNIVERSIDAD 2022/II SEMESTRE/DESARROLLO DE SOFTWARE 4/Proyecto-PaginaDeSuplementosAlimenticios-main/badlog.jpg");
+    background: url("../img/badlog.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
