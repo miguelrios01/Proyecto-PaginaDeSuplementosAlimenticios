@@ -1,0 +1,13 @@
+/* HOLA SOY EL ROOT NO ME CAMBIES PORQUE SOY EL QUE MANDA LAS VARIABLES */
+:root {
+    /*========== Colores ==========*/
+    --title-color: #157033;
+    --text-color: #44a75d;
+    --text-color-light: #6eb67e;
+    --container-color:linear-gradient(#8cf89c91,#ffffff);
+    --container-color-footer:linear-gradient(#ffffff,#8cf89c91);
+    --container-color-negro: #000000;
+    --container-color-alt: #ffffff;
+  }
+
+
