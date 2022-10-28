@@ -109,7 +109,7 @@ nav .serach__box span::after{
     height: 100%;
     width: 0%;
     content: '';
-    background: tomato;
+    background: var( --title-color);
     position: absolute;
     top: 0;
     right: 0;
