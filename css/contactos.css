@@ -1,0 +1,90 @@
+*{ 
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(https://wp.es.aleteia.org/wp-content/uploads/sites/7/2017/05/web3-vitamine-natural-pills-shutterstock_253771126-valentina_g-ai.jpg);
+    background-size: cover;
+}
+
+.CuadroG{
+    border-radius: 40px;
+    margin: auto;
+    width: 800px;
+    height: 540px;
+    background-color: rgba(255, 255, 255, 0.797)
+}
+.titulo{
+    margin: 0px;
+    font-size: 50px;
+}
+.InfoSupe{
+    background: url(https://static.vecteezy.com/system/resources/previews/006/640/538/non_2x/nature-of-green-leaf-in-garden-at-summer-natural-green-leaves-plants-using-as-spring-background-cover-page-greenery-environment-ecology-wallpaper-photo.jpg);
+    background-size: cover;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 100%;
+    height: 200px;
+}
+
+.InfoIn{
+    margin-top: 40px;
+    text-align: center;
+    color: #3d6f48;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    color: #3d6f48;
+    text-decoration: none;
+}
+
+.iconos{
+    margin: auto;
+    width:20px;
+    height:20px;
+}
+
+.Impots{
+    color: #3d6f48;
+    margin: auto;
+    width: 308px;
+    height: 280px;
+}
+
+.datos{
+    margin: auto;
+    float:right;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+}
+
+.cuadro{
+    float:left;
+    width: 150px;
+    height: 150px;
+}
+
+.entradas{
+    width: 140px;
+    height: 100;
+}
+
+.botonEnv{
+    background-color: transparent;
+    border-color: #3d6f48;
+}
+
+.botonEnv:hover{
+    transform: scale(1.02);
+    color: white;
+    background-color: #3d6f48;
+}
+
+.Areatext{
+    width: 100%;
+}
+
