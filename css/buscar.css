@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor1{
+margin: auto;
+display: flex;
+flex-direction: column;
+width: 300px;
+}
+.contenedor1 h1{
+    
+    font-size: 60px;
+   padding-bottom: 20px;
+}
+
+.contenedor1 .controls{
+    
+    height: 40px;
+    font-size: 30px;
+    width: 190px;
+}
+
+.contenedor2{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width:auto;
+}
+
+
+.tabla{
+    width: auto;
+
+}
+
+
+tbody td{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+
+
