@@ -106,7 +106,7 @@ nav .serach__box span::after{
     height: 100%;
     width: 0%;
     content: '';
-    background: var( --title-color);
+    background: tomato;
     position: absolute;
     top: 0;
     right: 0;
@@ -257,38 +257,52 @@ input[type="checkbox"]{
     filter: brightness(99%);    /* controlo la iluminacion de la imagen */
 } 
 
-/*ORLANDO ESCRIBIO ESTE CSS AQUI POR QUE TIENE PEREZA*/
+/*YO (ORLANDO) ESCRIBIO ESTE CSS AQUI POR QUE TIENE PEREZA*/
 
-.box-texto{
-    position: relative;
-    left: 600px;
-    bottom: 500px;
-    width: 500px;
-    padding: 15px;
-    margin: 15px;
-    text-decoration: none;
-    color: #000000;
-    background-color: transparent;
+.titulo{
+    text-align: center;     /*CENTRA EL TITULO*/
+}
+
+.centro{
+    display: flex;
+    justify-content: center;        /*CENTRA LOS SECTION/DIV*/
+    align-items: center;
+}
+
+.container{
     font-size: 20px;
+    max-width: 600px;               /*TAMAÑO DE LETRA Y DEL CONTAINER*/
+    width: 100%;
+}
+
+.container2{
+    font-size: 24px;
+    max-width: auto;
+    width: 800px;                   /*LO MISMO DE ARRIBA PERO CON EL OTRO CONTAINER*/
+    margin: 15px;
+    text-align: justify;
+}
+
+.centro-botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;            /*PARA MOVER LOS BOTONES*/
+    position: relative;
+    top: -125px;
 }
 
 .producto{
-    position: static;
-    bottom: 350px;
     margin: 60px;
     padding: 20px;
     width: 300px;
 }
 
 .boton{
-    position: relative;
-    left: 630px;
-    top: -235px;
     border: none;
     color: white;
     padding: 15px 30px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none;              /*DISEÑO DE LOS BOTONES*/
     font-size: 20px;
     margin: 4px 2px;
     transition-duration: 0.5s;
@@ -302,47 +316,21 @@ input[type="checkbox"]{
 }
 
 .compra:hover{
-    background-color: #44a75d;
+    background-color: #44a75d;              /*EFECTO DEL BOTON COMPRA*/
     color: white;
 }
 
 .carrito{
     background-color: transparent;
     color: #000000;
-    border: 2px solid lightskyblue;
+    border: 2px solid lightskyblue;         
 }
 
 .carrito:hover{
-    background-color: lightskyblue;
+    background-color: lightskyblue;         /*EFECTO DEL BOTON CARRITO*/
     color: white;
 }
 
-.precio{
-    color: #000000;
-    font-size: 20px;
-    text-decoration: none;
-    position: relative;
-    left: 630px;
-    top: -450px;
-}
-
-.detalles{
-    position: relative;
-    top: -300px;
-    font-size: 22px;
-    color: #000000;
-    text-decoration: none;
-    text-align: justify;
-    margin: 15px;
-    padding: 15px;
-}
-
-.detalles .texto{
-    color: #000000;
-    font-size: 18px;
-    text-decoration: none;
-    text-align: justify;
-}
 
 /*DESPUES DE ESTO YA NO ESCRIBIO NADA*/
 
