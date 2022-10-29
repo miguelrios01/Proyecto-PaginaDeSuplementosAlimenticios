@@ -1,10 +1,11 @@
 *{ font-family: 'Roboto', sans-serif;}
-body{
+.contenedor{
     background-image: url(https://wp.es.aleteia.org/wp-content/uploads/sites/7/2017/05/web3-vitamine-natural-pills-shutterstock_253771126-valentina_g-ai.jpg);
     background-size: cover;
 }
 
 .sectg{
+    
     margin: 40px;
     width: 1222px;
     height: 600px;

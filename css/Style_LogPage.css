@@ -1,21 +1,29 @@
 body {
     font-family: 'Arial', Times, serif, Helvetica, sans-serif;
     margin: 0%;
-    background: url("../img/badlog.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+
 }
 * {
     box-sizing: border-box;
 }
+
+.contenedor{
+    background: url("../img/badlog.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 25px;
+}
+
 .cuadro{
     width: 100%;
     padding: 15px;
+    
 }
 .cuestionario{
     background: rgb(255, 255, 255);
     margin-top: 50px;
-    padding: 3px;
+    padding: 15px;
+    
 }
 /* titulo */
 h1{
@@ -23,6 +31,15 @@ h1{
     color: #39dfb5;
     font-size: 50px;
 }
+.cuadrodetexto{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+   
+}
+
 input[type="text"],
 input[type="password"]{
     font-size: 20px;
@@ -46,6 +63,24 @@ input[type="password"]{
     height: 150px;
 }
 /**/
+
+.span{
+    
+    border: none;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background:  #45edad;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.span:hover{
+    background: rgb(86, 238, 223);
+}
+
+
 .button{
     border: none;
     width: 100%;
@@ -59,6 +94,9 @@ input[type="password"]{
 .button:hover{
     background: rgb(86, 238, 223);
 }
+
+
+
 p{
     text-align: center;
 }
