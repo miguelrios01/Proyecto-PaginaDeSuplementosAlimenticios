@@ -40,11 +40,13 @@ nav{
 
 }
 
-nav .icon{
-    font-size: 35px;
-    font-weight: 800;
-    color: var(--title-color);
+nav .flogo{
+   height: 105px;
+   float: left;
     cursor: pointer;
+}
+header img{
+    width: 10%;
 }
 
 nav ol{
@@ -264,14 +266,6 @@ input[type="checkbox"]{
 } 
 
 
-.Banner{
-   
-   position: relative; 
-   margin: 0 auto;
-} 
-.foto{
-    width: 100%;
-}
 div.Fproductos {
     margin: 75px;
     float:left;

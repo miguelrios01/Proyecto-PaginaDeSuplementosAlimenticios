@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/PageIcon.png">
+    <link rel="shortcut icon" href="../img/logo.SUPLEMENTO.png">
     <link rel="stylesheet" href="../css/main.css">
+        <!-- framework UIKIT -->
+    <link rel="stylesheet" href="../frame/css/uikit.min.css">
+    <script src="../frame/js/uikit.min.js"></script>
+    <script src="../frame/js/uikit-icons.min.js"></script>
+
     <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
     <title>Inicio</title>
 
@@ -21,7 +26,7 @@
         <nav>
             <!--menu navegable del proyecto  -->
             <!-- Ir cambiando porque no se que menus tendremos -->
-            <div class="icon">Suministros <b style="color: red;">A</b>limenticios</div>
+         <img class="flogo" src="../img/logo.SUPLEMENTO.png" alt>
             <div class="serach__box">
                 <input type="search" placeholder="Buscar">
                 <span class="fa fa-search" onclick="location.href='../Plantilla/buscar.html';"></span>
@@ -43,14 +48,49 @@
     </header>
     <!-- C O N T E N I D O -->
 
-    <section class="contenido"> </section>
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true">
 
-    <section class="contenedor">
-        <div class="Banner">
-            <img class="foto" src="../img/omega3banner-1.png" alt="" width="1312" height="405">
-        </div>
-    </section>
+        <ul class="uk-slider-items uk-grid">
+            <li class="uk-width-3-4">
+                <div class="uk-panel">
+                    <img src="../img/omega3banner-1.png"width="1800" height="1200"alt="">
+                    <div class="uk-position-center uk-text-center">
+                        
+                    </div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-panel">
+                    <img src="../img/Banner1.1.jpg" width="1800" height="1200"  alt="">
+                    <div class="uk-position-center uk-text-center">
+                       
+                    </div>
+                </div>
 
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-panel">
+                    <img src="../img/banner3.1.jpg" width="1800" height="1200" alt="">
+                    <div class="uk-position-center uk-text-center">
+                     
+                    </div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-panel">
+                    <img src="../img/BANNER 4.1.jpg"  width="1800" height="1200" alt="">
+                    <div class="uk-position-center uk-text-center">
+                        
+                    </div>
+                </div>
+            </li>
+          
+            
+        </ul>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    
+    </div>
 
     <section>
         <div class="Fproductos">
@@ -107,8 +147,6 @@
                         </p>
                     </div>
                 </div>
-
-
 
 
                 <div class="footer_tarjeta">
