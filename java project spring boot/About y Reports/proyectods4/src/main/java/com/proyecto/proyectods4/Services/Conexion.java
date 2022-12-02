@@ -8,7 +8,7 @@ public class Conexion {
     public Connection openDb(){
         try {
             Class.forName("org.mariadb.jdbc.Driver");
-            return DriverManager.getConnection("jdbc:mariadb://localhost:3306/proyectods4","root","123456");
+            return DriverManager.getConnection("jdbc:mariadb://localhost:3306/semestral","root","123456");
         } catch (SQLException e) {
             int x = 1;
         } 
