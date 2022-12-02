@@ -265,17 +265,6 @@ input[type="checkbox"]{
     filter: brightness(99%);    /* controlo la iluminacion de la imagen */
 } 
 
-
-div.Fproductos {
-    margin: 75px;
-    float:left;
-    width: 183px;
-   }
-
-   div.Fproductos img{
-    width: 100%;
-    height: auto;
-  }
  
 
 
@@ -314,32 +303,21 @@ div.Fproductos {
  div.Bv{
     position: relative;
  }
- section.BV img{
-    width: 100%;
-    height: 155px;
- }
+ 
    
     .BV h4{
     color: rgb(14, 13, 13);
-    text-align: left;
-    margin-left: 10px;
-    bottom:115px;
+    text-align: center;
+    margin-right: 300px;
+    bottom:150px;
     position: relative;
     font-size: 35px;
     font-family:  'Finger Paint', cursive;
 }
-.BV button{
- position: relative;
- margin-left: 205px;
- bottom:97px;
 
-}
-.uk-section{
-    background :red
-  }
-  .uk-container p{
-    color:black
-  }
+
+
+
  
 /* ========== F O O T E R ============  */
 footer{
