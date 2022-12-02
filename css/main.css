@@ -272,10 +272,11 @@ div.Fproductos {
     width: 183px;
    }
 
-  div.Fproductos img{
+   div.Fproductos img{
     width: 100%;
     height: auto;
   }
+ 
 
 
   div.descripcion {
@@ -333,6 +334,13 @@ div.Fproductos {
  bottom:97px;
 
 }
+.uk-section{
+    background :red
+  }
+  .uk-container p{
+    color:black
+  }
+ 
 /* ========== F O O T E R ============  */
 footer{
     
